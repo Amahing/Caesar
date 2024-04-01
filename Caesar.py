@@ -18,5 +18,7 @@ def Caesar_decrypt(ciphertext, key):
         decrypt_text.append(alphabet[(alphabet.index(ciphertext[x]) - key) % len(alphabet)])
     return decrypt_text
 
+# Run for testing:
+
 print(Caesar_encrypt("Привіт", 2))
 print(Caesar_decrypt("Стїґйф", 2))
